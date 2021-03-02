@@ -422,6 +422,17 @@ html{
 	}
 }
 
+@media (max-width: 1230px){
+	.footer__menu{
+		display: none;
+	}
+
+	.footer__menu__hidden{
+		opacity: 1;
+		display: block;
+	}
+}
+
 @media (max-width: 1024px){
 	.content__text__container{
 		margin-bottom: 20px;
@@ -469,15 +480,6 @@ html{
 		width: 30px;
 		height: 60px;
 		right: -10px;
-	}
-
-	.footer__menu{
-		display: none;
-	}
-
-	.footer__menu__hidden{
-		opacity: 1;
-		display: block;
 	}
 }
 

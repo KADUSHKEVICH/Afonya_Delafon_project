@@ -350,7 +350,9 @@ html{
 	.additional__menu-title{
 		font-size: 32px;
 	}
+}
 
+@media (max-width: 1230px){
 	.footer__menu{
 		display: none;
 	}
@@ -388,15 +390,6 @@ html{
 	.additional__menu-title{
 		font-size: 23px;
 		margin-bottom: 30px;
-	}
-
-	.footer__menu{
-		display: none;
-	}
-
-	.footer__menu__hidden{
-		display: block;
-		opacity: 1;
 	}
 }
 
@@ -656,10 +649,6 @@ html{
 		line-height: 91.12%;	
 		letter-spacing: .05em;
 	}
-
-	
-
-	
 
 	.advice__btn{
 		padding: 0;
